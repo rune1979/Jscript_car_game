@@ -4,7 +4,7 @@ language: php
 # Versions of PHP you want your project run with.
 php:
   - 7.2
-  - hhvm
+
 install:
 - travis_retry composer install --no-interaction --no-suggest
 # Commands to be run before your environment runs.
