@@ -11,13 +11,13 @@
         stopOnFailure="false">
     <testsuites>
         <testsuite name="Simple Game">
-            <directory suffix=".php">./</directory>
+            <directory suffix=".php">./sound</directory>
         </testsuite>
     </testsuites>
 
     <filter>
         <whitelist>
-            <directory suffix=".php">./vendor</directory>
+            <directory suffix=".php">./img</directory>
         </whitelist>
     </filter>
 </phpunit>
