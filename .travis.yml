@@ -26,7 +26,7 @@ matrix:
 notifications:
     on_success: never
     on_failure: always
-
+    email: runehattmann@gmail.com
 # After a build, send email notification with the build results
-notifications:
- email: runehattmann@gmail.com
+
+
