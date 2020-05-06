@@ -33,4 +33,5 @@ notifications:
 
 
 # After a build, send email notification with the build results
-notifications:runehattmann@gmail.com
+notifications:
+ email: runehattmann@gmail.com
