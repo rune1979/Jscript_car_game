@@ -10,14 +10,14 @@
         processIsolation="false"
         stopOnFailure="false">
     <testsuites>
-        <testsuite name="Test Suite">
-            <directory suffix=".php">./tests</directory>
+        <testsuite name="Simple Game">
+            <directory suffix=".php">./</directory>
         </testsuite>
     </testsuites>
 
     <filter>
         <whitelist>
-            <directory suffix=".php">./app</directory>
+            <directory suffix=".php">./img</directory>
         </whitelist>
     </filter>
 </phpunit>
