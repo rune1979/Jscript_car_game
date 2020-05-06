@@ -3,8 +3,8 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "ankurk91",
-      "homepage": "https://ankurk91.github.io/"
+      "name": "rune",
+      "homepage": "https://github.com/rune1979/"
     }
   ],
   "require": {
@@ -13,11 +13,11 @@
   "require-dev": {
     "phpunit/phpunit": "^7.3"
   },
-  "autoload": {
-    "classmap": [
-      "app/Classes"
-    ]
-  },
+ # "autoload": {
+ #   "classmap": [
+ #     "app/Classes"
+ #   ]
+ # },
   "scripts": {
     "test": "phpunit"
   },
